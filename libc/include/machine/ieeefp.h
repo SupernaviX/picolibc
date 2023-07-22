@@ -363,6 +363,10 @@ warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 #define __IEEE_LITTLE_ENDIAN
 #endif
 
+#ifdef __v810
+#define __IEEE_LITTLE_ENDIAN
+#endif
+
 #ifdef __v850
 #define __IEEE_LITTLE_ENDIAN
 #endif
