@@ -225,6 +225,10 @@ _BEGIN_STD_C
 #endif
 #endif
 
+#ifdef __v810
+#define __JBLEN 32
+#endif
+
 #ifdef __v850
 /* I think our setjmp is saving 15 regs at the moment.  Gives us one word
    slop if we need to expand.  */

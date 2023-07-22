@@ -1,0 +1,12 @@
+[binaries]
+c = 'v810-unknown-vb-clang'
+ar = 'v810-unknown-vb-llvm-ar'
+as = 'v810-unknown-vb-llvm-mc'
+ld = 'v810-unknown-vb-ld.lld'
+strip = 'v810-unknown-vb-llvm-strip'
+
+[host_machine]
+system = 'unknown'
+cpu_family = 'v810'
+cpu = 'vb'
+endian = 'little'
